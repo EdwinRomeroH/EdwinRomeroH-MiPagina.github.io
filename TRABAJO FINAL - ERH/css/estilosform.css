@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* ESTILOS */
+body{font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: url(https://marketplace.canva.com/EAE6xkbSO1E/2/0/1600w/canva-fondo-de-pantalla-llamativa-azul-y-naranja-pYXVWPu5qYU.jpg);
+}
+legend{font-size: 20PX;}
+
+#form1{
+    width: 40%;
+    margin: auto;
+    /*background: rgb(24, 27, 214);*/
+    color: rgb(34, 29, 29);
+    font-size: 16px;
+    padding: 20px;
+    border: solid 10px rgba(15, 31, 48, 0.767);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    }
+    #form1 fieldset{
+        margin-top: 5%;
+    }
+    #form1 [required]{
+        border: solid 1px #ff0000;
+    }
+    #form1 input{
+    margin-left: 30px;
+    }
